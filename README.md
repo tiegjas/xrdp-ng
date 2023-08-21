@@ -1,3 +1,6 @@
+# Update
+This is a work in progress to update to work with Python3 due to the deprecation of Gtk2.
+
 # X11 Remote Desktop
 This is a rudimentary remote desktop tool for the X11 protocol exploiting unauthenticated x11 sessions.
 
