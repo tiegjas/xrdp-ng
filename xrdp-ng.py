@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# xrdp.py - X11 Remote Desktop
+# xrdp-ng.py - X11 Remote Desktop
 # =====================================
 #
 # Authors:
@@ -223,24 +223,24 @@ def main():
             )
 
 	if (len(sys.argv) == 1):
-		print("xrdp.py <host>:<dp>")
+		print("xrdp-ng.py <host>:<dp>")
 		print("------------------------")
 		print("Example:")
-		print("xrdp.py 10.0.0.10:0")
-		print("xrdp.py 10.0.0.10:0 --no-disp")
+		print("xrdp-ng.py 10.0.0.10:0")
+		print("xrdp-ng.py 10.0.0.10:0 --no-disp")
 		print("")
 		quit()
 	elif ((sys.argv[1] == "-h") or (sys.argv[1] == "--help")):
 		print('''
-xrdp.py - X11 Remote Desktop
+xrdp-ng.py - X11 Remote Desktop
 =====================================
 
 this is a rudimentary remote desktop tool for the X11 protocol
 
-xrdp.py <host>:<dp>
+xrdp-ng.py <host>:<dp>
 --------------
- Example: xrdp.py 10.0.0.10:0
-          xrdp.py 10.0.0.10:0 --no-disp
+ Example: xrdp-ng.py 10.0.0.10:0
+          xrdp-ng.py 10.0.0.10:0 --no-disp
 
 requirements:
 --------------
